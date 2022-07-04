@@ -1,4 +1,44 @@
-# Getting Started with Create React App
+# Project Name
+
+Math Magician Application
+
+## Description
+
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
+
+## Built With
+
+- *Visual Studio Code*
+
+- *Github Desktop application*
+
+- *Linters for HTML/CSS/JS*
+
+- *[Create React App](https://github.com/facebook/create-react-app)*
+
+## Live Demo (if available)
+
+Coming soon...
+
+## History of Changes
+
+2022-07-04: Environment set up and tools to develop a React application. 
+
+## Author
+
+👤 **Hans P. Zizold**
+
+- GitHub: [@githubhandle](https://github.com/HansZizold)
+- Twitter: [@twitterhandle](https://twitter.com/hanzio27)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
+
+2022-07-04: Environment set up and tools to develop a React application. 
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
