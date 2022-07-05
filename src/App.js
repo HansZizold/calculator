@@ -1,14 +1,16 @@
-// import logo from './logo.svg';
+import React, { PureComponent } from 'react';
 import './App.css';
 import Calculator from './Components/Calculator';
 
-function App() {
-  return (
-    <main>
-      <section>
-        <Calculator />
-      </section>
-    </main>
-  );
+class App extends PureComponent {
+  render() {
+    return (
+      <main>
+        <section>
+          <Calculator />
+        </section>
+      </main>
+    );
+  }
 }
 export default App;
