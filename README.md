@@ -23,7 +23,7 @@
 
 ## Live Demo (if available)
 
-Coming soon...
+[Math Magician](https://hanszizold.github.io/calculator/)
 
 ## History of Changes
 
