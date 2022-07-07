@@ -1,41 +1,47 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 
 class Calculator extends PureComponent {
   render() {
+    const { handler, display } = this.props;
     return (
       <div className="calculator">
-        <input type="button" value="0" className="input" />
+        <input type="text" readOnly value={display} className="input" />
         <div className="buttons1">
-          <button type="button" className="button1">AC</button>
-          <button type="button" className="button1">&plusmn;</button>
-          <button type="button" className="button1">%</button>
-          <button type="button" className="button2">&divide;</button>
+          <button type="button" className="button1" onClick={handler}>AC</button>
+          <button type="button" className="button1" onClick={handler}>+/-</button>
+          <button type="button" className="button1" onClick={handler}>%</button>
+          <button type="button" className="button2" onClick={handler}>÷</button>
         </div>
         <div className="buttons1">
-          <button type="button" className="button1">7</button>
-          <button type="button" className="button1">8</button>
-          <button type="button" className="button1">9</button>
-          <button type="button" className="button2">&times;</button>
+          <button type="button" className="button1" onClick={handler}>7</button>
+          <button type="button" className="button1" onClick={handler}>8</button>
+          <button type="button" className="button1" onClick={handler}>9</button>
+          <button type="button" className="button2" onClick={handler}>x</button>
         </div>
         <div className="buttons1">
-          <button type="button" className="button1">4</button>
-          <button type="button" className="button1">5</button>
-          <button type="button" className="button1">6</button>
-          <button type="button" className="button2">&minus;</button>
+          <button type="button" className="button1" onClick={handler}>4</button>
+          <button type="button" className="button1" onClick={handler}>5</button>
+          <button type="button" className="button1" onClick={handler}>6</button>
+          <button type="button" className="button2" onClick={handler}>-</button>
         </div>
         <div className="buttons1">
-          <button type="button" className="button1">1</button>
-          <button type="button" className="button1">2</button>
-          <button type="button" className="button1">3</button>
-          <button type="button" className="button2">+</button>
+          <button type="button" className="button1" onClick={handler}>1</button>
+          <button type="button" className="button1" onClick={handler}>2</button>
+          <button type="button" className="button1" onClick={handler}>3</button>
+          <button type="button" className="button2" onClick={handler}>+</button>
         </div>
         <div className="buttons1">
-          <button type="button" className="button0">0</button>
-          <button type="button" className="button1">&bull;</button>
-          <button type="button" className="button2">=</button>
+          <button type="button" className="button0" onClick={handler}>0</button>
+          <button type="button" className="button1" onClick={handler}>.</button>
+          <button type="button" className="button2" onClick={handler}>=</button>
         </div>
       </div>
     );
   }
 }
+Calculator.propTypes = {
+  handler: PropTypes.func.isRequired,
+  display: PropTypes.string.isRequired,
+};
 export default Calculator;
