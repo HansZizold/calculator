@@ -1,22 +1,15 @@
-import React, { PureComponent } from 'react';
+import React, { useState } from 'react';
 import Calculator from './Components/Calculator';
 import calculate from './logic/calculate';
 import './App.css';
 
-class App extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
-      previousData: {},
-      display: '0',
-    };
-  }
+const App = () => {
+  const [data, setData] = useState({ previousData: {}, display: '0' });
 
-  handler = (event) => {
+  const handler = (event) => {
     const buttonValue = event.target.innerHTML;
-    const { previousData } = this.state;
-    const ActualData = calculate(previousData, buttonValue);
-    const { total, next, operation } = ActualData;
+    const actualData = calculate(data.previousData, buttonValue);
+    const { total, next, operation } = actualData;
     let temp = '';
     if (total) {
       temp += ' '.concat(total);
@@ -27,18 +20,15 @@ class App extends PureComponent {
     if (next) {
       temp += ' '.concat(next);
     }
-    this.setState({ previousData: ActualData, display: temp });
-  }
+    setData({ previousData: actualData, display: temp });
+  };
 
-  render() {
-    const { display } = this.state;
-    return (
-      <main>
-        <section>
-          <Calculator handler={this.handler} display={display} />
-        </section>
-      </main>
-    );
-  }
-}
+  return (
+    <main>
+      <section>
+        <Calculator handler={handler} display={data.display} />
+      </section>
+    </main>
+  );
+};
 export default App;
