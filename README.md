@@ -29,6 +29,7 @@
 
 2022-07-04: Environment set up and tools to develop a React application.
 2022-07-05: Calculator component added.
+2022-07-06: Calculator libraries and events handling added to provide calculator functionalities.
 
 ## Getting Started
 
