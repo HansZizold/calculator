@@ -13,13 +13,15 @@
 
 ## Built With
 
-- *Visual Studio Code*
+- *[Visual Studio Code](https://code.visualstudio.com/)*
 
-- *Github Desktop application*
+- *[Github Desktop application](https://desktop.github.com/)*
 
-- *Linters for HTML/CSS/JS*
+- *[Linters for React/Redux](https://github.com/microverseinc/linters-config/tree/master/react-redux)*
 
 - *[Create React App](https://github.com/facebook/create-react-app)*
+
+- Math JS files calculate and operate provides by Microverse
 
 ## Live Demo (if available)
 
@@ -27,6 +29,7 @@
 
 ## History of Changes
 
+2022-07-12: Math Magician application completed using react routes.
 2022-07-07: Calculator components refactored using hooks.
 2022-07-06: Calculator libraries and events handling added to provide calculator functionalities.
 2022-07-05: Calculator component added.
@@ -41,23 +44,19 @@
 - You need to have a code editor to be able to run the code. VSCode is most preferred.
 
 ### Setup
-To get a local copy up and running follw these simple example steps:
+To get a local copy up and running follow these simple example steps:
 
 ```
     - Select the link with the code on the https code table in the repo
     - Open a Terminal and write the command: git clone https://github.com/HansZizold/calculator
     - $ cd into the directory and run npm install
     - $ After the node_module module is installed successfully, run npm start
-    - $ The project will open on the browser with localhost:800
+    - $ The project will open on the browser with localhost:8000
 ```
 
 ### Install
 
 - Run it in your code editor
-
-### Usage
-
-- You can download an extension for VSCode named "Live Server" so you can see the actual project working in the browser
 
 ## Author
 

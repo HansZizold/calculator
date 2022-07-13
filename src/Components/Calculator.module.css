@@ -1,0 +1,39 @@
+.maincalc {
+  display: flex;
+  width: 92%;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.input {
+  width: 48vw;
+  height: 8vh;
+  text-align: end;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  background-color: grey;
+  border-color: white;
+  padding-right: 8px;
+}
+
+.buttons1 {
+  display: flex;
+  height: 8vh;
+}
+
+.button1,
+.button2,
+.button0 {
+  width: 12vw;
+  font-size: 20px;
+  border-color: lightgrey;
+}
+
+.button2 {
+  background-color: orange;
+}
+
+.button0 {
+  width: 24vw;
+}

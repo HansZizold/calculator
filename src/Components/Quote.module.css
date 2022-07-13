@@ -1,0 +1,8 @@
+.quote {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0 16%;
+}
