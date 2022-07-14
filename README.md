@@ -79,6 +79,10 @@ Run command: `npm run test` in root directory.
 
 ## 🤝 Contributing
 
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/HansZizold/calculator/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
