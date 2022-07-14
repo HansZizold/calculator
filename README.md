@@ -23,18 +23,6 @@
 
 - Math JS files calculate and operate provides by Microverse
 
-## Live Demo (if available)
-
-[Math Magician](https://hanszizold.github.io/calculator/)
-
-## History of Changes
-
-2022-07-13: Unit tests added using React Testing Library.
-2022-07-12: Math Magician application completed using react routes.
-2022-07-07: Calculator components refactored using hooks.
-2022-07-06: Calculator libraries and events handling added to provide calculator functionalities.
-2022-07-05: Calculator component added.
-2022-07-04: Environment set up and tools to develop a React application.
 
 ## Getting Started
 
