@@ -61,6 +61,12 @@ To get a local copy up and running follow these simple example steps:
 
 ## Author
 
+👤 **Elmer Lopez**
+
+- Github: [@memelopez] (https://github.com/memelopez/) 
+- Twitter: [@memelopez10] (https://twitter.com/memelopez10) 
+- LinkedIn: [Elmer Lopez] (https://www.linkedin.com/in/elmer-lopez-51b187200/)
+
 👤 **Hans P. Zizold**
 
 - GitHub: [@githubhandle](https://github.com/HansZizold)
