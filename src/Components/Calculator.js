@@ -1,14 +1,40 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import styles from './Calculator.module.css';
+import calculate from '../logic/calculate';
 
-const Calculator = (props) => {
-  const { handler, display } = props;
+const Calculator = () => {
+  const [data, setData] = useState({
+    previousData: {
+      total: null,
+      next: null,
+      operation: null,
+    },
+  });
+  const [display, setDisplay] = useState('0');
+
+  const handler = (event) => {
+    const buttonValue = event.target.textContent;
+    const actualData = calculate(data.previousData, buttonValue);
+    const { total, next, operation } = actualData;
+    let temp = '';
+    if (total) {
+      temp += total;
+    }
+    if (operation) {
+      temp += operation;
+    }
+    if (next) {
+      temp += next;
+    }
+    setData({ previousData: actualData });
+    setDisplay(temp);
+  };
+
   return (
     <div className={styles.maincalc}>
       <h2>Let&#39;s do some math!</h2>
       <div>
-        <input type="text" readOnly value={display} className={styles.input} />
+        <input type="text" value={display} className={styles.input} readOnly />
         <div className={styles.buttons1}>
           <button type="button" className={styles.button1} onClick={handler}>AC</button>
           <button type="button" className={styles.button1} onClick={handler}>+/-</button>
@@ -41,9 +67,5 @@ const Calculator = (props) => {
       </div>
     </div>
   );
-};
-Calculator.propTypes = {
-  handler: PropTypes.func.isRequired,
-  display: PropTypes.string.isRequired,
 };
 export default Calculator;
