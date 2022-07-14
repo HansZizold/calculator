@@ -23,6 +23,9 @@
 
 - Math JS files calculate and operate provides by Microverse
 
+## Live Demo
+
+- [Netlify](https://calculator-hanszizold-97c468.netlify.app/)
 
 ## Getting Started
 
@@ -33,6 +36,7 @@
 - You need to have a code editor to be able to run the code. VSCode is most preferred.
 
 ### Setup
+
 To get a local copy up and running follow these simple example steps:
 
 ```
@@ -51,7 +55,7 @@ Run command: `npm run test` in root directory.
 
 - Run it in your code editor
 
-## Author
+## Authors
 
 👤 **Elmer Lopez**
 
