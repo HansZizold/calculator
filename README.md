@@ -55,6 +55,10 @@ To get a local copy up and running follow these simple example steps:
     - $ The project will open on the browser with localhost:8000
 ```
 
+To run tests: 
+
+Run command: `npm run test` in root directory. 
+
 ### Install
 
 - Run it in your code editor
@@ -82,3 +86,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+
+## 📝 License
+
+This project is [MIT](https://github.com/IjayAbby/Web-Scraper-Ruby-Capstone-Project/blob/development/LICENSE) licensed.
