@@ -23,17 +23,6 @@
 
 - Math JS files calculate and operate provides by Microverse
 
-## Live Demo (if available)
-
-[Math Magician](https://hanszizold.github.io/calculator/)
-
-## History of Changes
-
-2022-07-12: Math Magician application completed using react routes.
-2022-07-07: Calculator components refactored using hooks.
-2022-07-06: Calculator libraries and events handling added to provide calculator functionalities.
-2022-07-05: Calculator component added.
-2022-07-04: Environment set up and tools to develop a React application.
 
 ## Getting Started
 
@@ -54,11 +43,21 @@ To get a local copy up and running follow these simple example steps:
     - $ The project will open on the browser with localhost:8000
 ```
 
+To run tests: 
+
+Run command: `npm run test` in root directory. 
+
 ### Install
 
 - Run it in your code editor
 
 ## Author
+
+👤 **Elmer Lopez**
+
+- Github: [@memelopez] (https://github.com/memelopez/) 
+- Twitter: [@memelopez10] (https://twitter.com/memelopez10) 
+- LinkedIn: [Elmer Lopez] (https://www.linkedin.com/in/elmer-lopez-51b187200/)
 
 👤 **Hans P. Zizold**
 
@@ -68,6 +67,10 @@ To get a local copy up and running follow these simple example steps:
 
 ## 🤝 Contributing
 
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/HansZizold/calculator/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -75,3 +78,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+
+## 📝 License
+
+This project is [MIT](https://github.com/IjayAbby/Web-Scraper-Ruby-Capstone-Project/blob/development/LICENSE) licensed.
